@@ -11,7 +11,7 @@ pstack は公式には Cursor の plugin のため、opencode で使うには pl
 
 ## 動作環境
 
-- `git`、`rsync`、`perl`(macOS は標準搭載)
+- `git` と POSIX 道具(`cp`、`awk`、`find`)のみ。macOS・Linux 標準搭載。`rsync` も `perl` も不要。
 - opencode の `~/.config/opencode/package.json` に `@opencode-ai/plugin`(`pstack_sync` tool を使う場合のみ)
 
 ## Install

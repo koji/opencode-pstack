@@ -11,7 +11,7 @@ pstack is officially a Cursor plugin, so opencode users had to `git pull` the pl
 
 ## Requirements
 
-- `git`, `rsync`, `perl` (preinstalled on macOS)
+- `git` plus POSIX tools (`cp`, `awk`, `find`) — preinstalled on macOS and Linux. No `rsync`, no `perl`.
 - opencode with `@opencode-ai/plugin` in `~/.config/opencode/package.json` (only needed for the `pstack_sync` tool)
 
 ## Install
